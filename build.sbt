@@ -12,6 +12,6 @@ scalacOptions ++= Seq(
 )
 resolvers += Resolver.sonatypeRepo("snapshots")
 libraryDependencies ++= Seq(
-  "com.markfeeney" %% "circlet" % "0.1.0-SNAPSHOT"
+  "com.markfeeney" % "circlet_2.11" % "0.1.0-SNAPSHOT"
 )
 
