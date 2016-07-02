@@ -11,3 +11,9 @@ A very small [circlet](https://github.com/overthink/circlet) app to
 
 1. `sbt run`
 1. Point browser to http://localhost:8888
+
+## License
+
+Copyright &copy; 2016 Mark Feeney
+
+Released under the MIT license.
