@@ -1,7 +1,7 @@
-package com.markfeeney.circlet.example
+package com.markfeeney.circletexample
 
-import com.markfeeney.circlet._
 import com.markfeeney.circlet.middleware._
+import com.markfeeney.circlet.{Circlet, JettyAdapter, JettyOptions, Response, _}
 import org.joda.time.Duration
 
 import scala.util.Random
