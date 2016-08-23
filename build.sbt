@@ -10,8 +10,10 @@ scalacOptions ++= Seq(
   "-Xlint",
   "-Ywarn-unused-import"
 )
+
+cancelable in Global := true // ctrl-c doesn't exit shell
+
 resolvers += Resolver.sonatypeRepo("snapshots")
 libraryDependencies ++= Seq(
-  "com.markfeeney" % "circlet_2.11" % "0.1.0-SNAPSHOT"
+  "com.markfeeney" % "circlet_2.11" % "0.2.0"
 )
-
